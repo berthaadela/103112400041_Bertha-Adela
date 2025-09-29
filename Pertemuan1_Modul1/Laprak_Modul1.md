@@ -44,7 +44,7 @@ Penjumlahan: + , contoh : 10 + 10 = 20
 <br/>Pengurangan: - , contoh : 10 - 10 = 0
 <br/>Perkalian: * , contoh : 10 * 10 = 100
 <br/>Pembagian: / , contoh : 10 / 10 = 1
-<br/>Sisa Bagi: % , contoh : 10 % 10 = 0, contoh : 10 % 2 = 8;
+<br/>Sisa Bagi: % , contoh : 10 % 10 = 0, contoh : 10 % 3 = 1;
 #### 2. Operator Logika
 AND : &&
 <br/>OR : ||
