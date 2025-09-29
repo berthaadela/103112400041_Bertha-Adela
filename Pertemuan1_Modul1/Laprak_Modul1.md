@@ -1,22 +1,67 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+<p align="center">Bertha Adela - 103112400041</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Pemrograman dikelompokkan menjadi dua, yaitu high level language dan low level language [1]. C++ termasuk ke dalam level high level language [1]. Bahasa ini disebut high level language karena berorientasi ke bahasa manusia, dengan kata lain mudah dipahami manusia [1]. Low level language adalah bahasa yang berorientasi ke bahasa mesin [1]. Pada level ini bahasa hanya mengenal bilangan biner, yaitu 0 atau 1 [1]. 
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### A. Struktur Data C++<br/>
+#### 1. Dasar C++
+Baris pertama dalam memulai program C++ adalah #include <iostream> [3]. Setelah itu semua kode harus diakhiri dengan tanda ; (titik koma). Setelah #include <iostream>, buat baris baru berisi using namespace std;.
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+Buat fungsi main setelah tipe data, contohnya: int main() {}. Operasi dilakukan didalam tanda {} (kurung kurawal).
+
+#### 2. Tipe Data
+Tipe data pada bahasa C++ diantaranya adalah:
+int, float, double, char, const, void, return [3].
+
+#### 3. Deklarasi Variabel
+Cara mendeklarasikan variabel yaitu harus menentukan tipe data dahulu sebelum nama variabel. Contoh:
+int angka;
+float bilangan;
+string huruf;
+
+#### 4. Input C++
+Input C++ menggunakan cin >> (nama variabel) dan ditutup dengan ; (kurung kurawal).
+Contoh:
+cin >> angka;
+
+Bisa double input atau lebih
+cin >> angka >> huruf;
+
+Bisa ditambah endl untuk membuat baris baru
+cin >> string >> endl;
+
+Untuk memasukkan value ke dalam variabel secara langsung sama dengan sebagian besar bahasa pemrograman lainnya. Contoh:
+angka = 10;
+bilangan = bilangan - 1;
+huruf = "sapi";
+
+#### 5. Output C++
+Output C++ menggunakan cout << (nama variabel/angka/string) dan ditutup dengan ; (kurung kurawal). Contoh:
+cout << angka;
+cout << "string langsung";
+cout << 90;
+
+### B. Operator
+#### 1. Operator Aritmatika
+Penjumlahan: + , contoh : 10 + 10 = 20
+Pengurangan: - , contoh : 10 - 10 = 0
+Perkalian: * , contoh : 10 * 10 = 100
+Pembagian: / , contoh : 10 / 10 = 1
+Sisa Bagi: % , contoh : 10 % 10 = 0, contoh : 10 % 2 = 8;
+#### 2. Operator Logika
+AND : &&
+OR : ||
+#### 3. Operator Hubungan
+Kurang dari: <
+Kurang dari sama dengan <=
+Lebih dari: >
+Lebih dari sama dengan: >=
+Sama dengan: ==
+Tidak sama dengan: !=
+
+### B. Linked List<br/>
+Linked list adalah suatu sistem untuk menyimpan data yang saling terkait berisi dua buah elemen yaitu integer dan pointer [2]. Linked list biasanya terurut dan memungkinkan untuk diterapkan operasi aritmatika [2]. Linked list efektif untuk pencarian data, lebih cepat untuk menemukan suatu data dibandingkan array karena linked list sudah memiliki alamat.
 
 ## Guided 
 
@@ -42,7 +87,7 @@ int main() {
     return 0;
 }
 ```
-Guided 1 adalah contoh aritmatika pada penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi dalam bahasa c++ dengan menginputkan angka pertama dengan angka kedua sebagai objek operasinya.
+Program di atas adalah contoh aritmatika pada penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi dalam bahasa c++ dengan menginputkan angka pertama dengan angka kedua sebagai objek operasinya.
 ### 2. Perbandingan
 
 ```C++
@@ -72,7 +117,7 @@ int main() {
     return 0;
 }
 ```
-Guided 2 berfungsi untuk membandingkan antara dua buah input bertipe integer apabila input pertama lebih dari atau kurang dari input kedua serta apabila input pertama sama atau berbeda dengan input kedua. 
+Program di atas berfungsi untuk membandingkan antara dua buah input bertipe integer apabila input pertama lebih dari atau kurang dari input kedua serta apabila input pertama sama atau berbeda dengan input kedua. 
 
 ### 3. Switch-Case
 
@@ -109,7 +154,7 @@ int main() {
 }
 
 ```
-Guided 3 akan melakukan operasi aritmatika penjumlahan atau pengurangan dari kedua input sesuai dengan pilihan, jika memilih selain dari pilihan, maka operasi aritmatika tidak dilakukan kemudian program memberi output "pilihan salah".
+Program di atas akan melakukan operasi aritmatika penjumlahan atau pengurangan dari kedua input sesuai dengan pilihan, jika memilih selain dari pilihan, maka operasi aritmatika tidak dilakukan kemudian program memberi output "pilihan salah".
 
 ### 4. Loop
 
@@ -142,7 +187,7 @@ int main() {
     return 0;
 }
 ```
-Guided 4 menerapkan for loop, while loop, dan do while dalam bahasa c++.
+Program di atas menerapkan for loop, while loop, dan do while dalam bahasa c++.
 
 ### 5. Array
 
@@ -174,7 +219,7 @@ int main() {
     return 0;
 }
 ```
-Guided 5 berfungsi untuk menyimpan nama dan nilai siswa untuk 3 siswa dalam bahasa c++.
+Program di atas berfungsi untuk menyimpan nama dan nilai siswa untuk 3 siswa dalam bahasa c++.
 
 ## Unguided 
 
@@ -204,54 +249,113 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output1_Unguided1.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
-
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output2_Unguided1.png)
 
-penjelasan unguided 1 
+Unguided 1 menggunakan tipe data float, menggunakan operator aritmatika +, -, *, dan / yang berfungsi untuk penjumlahan, pengurangan, perkalian, dan pembagian.
 
 ### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100.
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka;
+    string angka_satuan[10] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+
+    cout << "Masukkan angka (0 - 100): ";
+    cin >> angka;
+    int puluhan = angka / 10;
+    int satuan = angka % 10;
+
+    if (angka == 0) {
+        cout << "nol";
+    } else if (angka == 10) {
+        cout << "sepuluh";
+    } else if (angka == 11) {
+        cout << "sebelas";
+    } else if (angka > 11 && angka < 20) {
+        cout << angka_satuan[satuan] << " belas";
+    } else if (angka >= 20 && angka < 100) {
+        cout << angka_satuan[puluhan] << " puluh";
+        if (satuan != 0) {
+            cout << " " << angka_satuan[satuan];
+        }
+    } else if (angka >= 1 && angka <= 9) {
+        cout << angka_satuan[angka];
+    } else if (angka == 100) {
+        cout << "seratus";
+    } else {
+        cout << "angka tidak valid";
+    }
+
+    cout << endl;
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output1_Unguided2.png)
 
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output2_Unguided2.png)
 
-penjelasan unguided 2
+Unguided 2 menggunakan indeks array sebagai satuan dari angka 1 hingga angka 9. Array indeks ke-0 dikosongkan dan "nol" dimasukkan ke dalam kondisi if karena hanya dipakai sekali. Jika satuan maka diambil dari array indeks ke-(angka % 10) sedangkan untuk puluhan diambil dari array indeks ke-(angka / 10). Perkondisian diantara angka 0 s.d. 100 yang dipisah adalah angka 0, 10, 11, dan 100. Angka 12 hingga 19 menggunakan kondisi array indeks ke-(angka % 10) ditambah dengan string "belas", Angka 20 hingga 99 menggunakan kondisi array indeks ke-(angka / 10) ditambah dengan string "puluh" (namun jika sisa bagi 10 tidak sama dengan 0, maka ditambah dengan array indeks ke-(angka % 10)), Angka 1 hingga 9 hanya perlu memanggil indeks dari array secara langsung, dan jika angka input di luar dari ketentuan maka output berupa string "angka tidak valid".
 
 ### 3. Buatlah program yang dapat memberikan input dan output sbb.
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka;
+    cin >> angka;
+    for (int b = angka; b >= 1; b--) {
+        for (int s = 1; s <= angka-b; s++) {
+            cout << "  ";
+        }
+        for (int i = b; i >= 1; i--) {
+            cout << i << " ";
+        }
+        cout << "* ";
+        for (int j = 1; j <= b; j++) {
+            cout << j;
+            cout << " ";
+        }
+        cout << endl;
+    }
+    for (int s = 1; s <= angka; s++) {
+        cout << "  ";
+    }
+    cout << "*" << endl;
+
+    return 0;
+}
 ```
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output1_Unguided3.png)
 
 ##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output2_Unguided3.png)
 
-penjelasan unguided 3
+Unguided 3 menghasilkan output berupa bilangan yang diinputkan akan urut mengecil dikurangi dengan satu hingga berhenti pada angka 1, kemudian dilanjutkan string "* " sebagai cermin, lalu dilanjutkan bilangan urut membesar ditambah 1 dari angka 1 menuju angka input. Setiap baris berikutnya angka pertama dihapus beserta angka terakhir setelah cermin. Terakhir hanya string "*" yang tersisa.
+for (int b = angka; b >= 1; b--) adalah perulangan utama menurun,
+for (int s = 1; s <= angka-b; s++) membuat spasi bertambah setiap perulangan,
+for (int i = b; i >= 1; i--) membuat angka menurun setiap perulangan,
+cout << "* "; sebagai cermin diantara batas perulangan angka menurun dengan perulangan angka menaik,
+for (int j = 1; j <= b; j++) membuat angka menaik setiap perulangan,
+for (int s = 1; s <= angka; s++) berfungsi sebagai spasi terakhir setelah perulangan lainnya berakhir dan hanya tersisa satu buah cermin.
 
 ## Kesimpulan
-...
+Bahasa C++ tidak jauh berbeda dengan bahasa pemrograman Go. Tantangan yang ada untuk saat ini adalah menggunakan format yang berbeda, seperti penempatan titik koma yang harus berada di akhir barisan kode. 
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Dewi, L. J. E. (2010). Media Pembelajaran Bahasa Pemrograman C++. Jurnal Pendidikan Teknologi dan Kejuruan, 7(1).
+<br/> [2] Siregar, A. A. N. (2019, April 25). Pengertian Linked Object. https://doi.org/10.31219/osf.io/dmwr3.
+<br/> [3] Satrio, E., & Pakpahan, S. (2019). Pemrograman C++ Untuk Pembelajar Mandiri (Vol. 1). Penerbit Cahaya INFORMATIKA.
+
