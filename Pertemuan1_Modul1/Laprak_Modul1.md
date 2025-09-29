@@ -6,9 +6,8 @@ Pemrograman dikelompokkan menjadi dua, yaitu high level language dan low level l
 
 ### A. Struktur Data C++<br/>
 #### 1. Dasar C++
-Baris pertama dalam memulai program C++ adalah #include <iostream> [3]. Setelah itu semua kode harus diakhiri dengan tanda ; (titik koma). Setelah #include <iostream>, buat baris baru berisi using namespace std;.
-
-Buat fungsi main setelah tipe data, contohnya: int main() {}. Operasi dilakukan didalam tanda {} (kurung kurawal).
+Baris pertama dalam memulai program C++ adalah #include < iostream > (tanpa spasi) [3]. Setelah itu semua kode harus diakhiri dengan tanda ; (titik koma). Setelah #include < iostream > (tanpa spasi) , buat baris baru berisi using namespace std;.
+<br/>Buat fungsi main setelah tipe data, contohnya: int main() {}. Operasi dilakukan didalam tanda {} (kurung kurawal).
 
 #### 2. Tipe Data
 Tipe data pada bahasa C++ diantaranya adalah:
@@ -17,48 +16,45 @@ int, float, double, char, const, void, return [3].
 #### 3. Deklarasi Variabel
 Cara mendeklarasikan variabel yaitu harus menentukan tipe data dahulu sebelum nama variabel. Contoh:
 int angka;
-float bilangan;
-string huruf;
+<br/>float bilangan;
+<br/>string huruf;
 
 #### 4. Input C++
 Input C++ menggunakan cin >> (nama variabel) dan ditutup dengan ; (kurung kurawal).
 Contoh:
-cin >> angka;
-
-Bisa double input atau lebih
-cin >> angka >> huruf;
-
-Bisa ditambah endl untuk membuat baris baru
-cin >> string >> endl;
-
-Untuk memasukkan value ke dalam variabel secara langsung sama dengan sebagian besar bahasa pemrograman lainnya. Contoh:
-angka = 10;
-bilangan = bilangan - 1;
-huruf = "sapi";
+<br/>cin >> angka;
+<br/><br/>Bisa double input atau lebih
+<br/>cin >> angka >> huruf;
+<br/><br/>Bisa ditambah endl untuk membuat baris baru
+<br/>cin >> string >> endl;
+<br/><br/>Untuk memasukkan value ke dalam variabel secara langsung sama dengan sebagian besar bahasa pemrograman lainnya. Contoh:
+<br/>angka = 10;
+<br/>bilangan = bilangan - 1;
+<br/>huruf = "sapi";
 
 #### 5. Output C++
 Output C++ menggunakan cout << (nama variabel/angka/string) dan ditutup dengan ; (kurung kurawal). Contoh:
-cout << angka;
-cout << "string langsung";
-cout << 90;
+<br/>cout << angka;
+<br/>cout << "string langsung";
+<br/>cout << 90;
 
 ### B. Operator
 #### 1. Operator Aritmatika
 Penjumlahan: + , contoh : 10 + 10 = 20
-Pengurangan: - , contoh : 10 - 10 = 0
-Perkalian: * , contoh : 10 * 10 = 100
-Pembagian: / , contoh : 10 / 10 = 1
-Sisa Bagi: % , contoh : 10 % 10 = 0, contoh : 10 % 2 = 8;
+<br/>Pengurangan: - , contoh : 10 - 10 = 0
+<br/>Perkalian: * , contoh : 10 * 10 = 100
+<br/>Pembagian: / , contoh : 10 / 10 = 1
+<br/>Sisa Bagi: % , contoh : 10 % 10 = 0, contoh : 10 % 2 = 8;
 #### 2. Operator Logika
 AND : &&
-OR : ||
+<br/>OR : ||
 #### 3. Operator Hubungan
 Kurang dari: <
-Kurang dari sama dengan <=
-Lebih dari: >
-Lebih dari sama dengan: >=
-Sama dengan: ==
-Tidak sama dengan: !=
+<br/>Kurang dari sama dengan <=
+<br/>Lebih dari: >
+<br/>Lebih dari sama dengan: >=
+<br/>Sama dengan: ==
+<br/>Tidak sama dengan: !=
 
 ### C. Linked List<br/>
 Linked list adalah suatu sistem untuk menyimpan data yang saling terkait berisi dua buah elemen yaitu integer dan pointer [2]. Linked list biasanya terurut dan memungkinkan untuk diterapkan operasi aritmatika [2]. Linked list efektif untuk pencarian data, lebih cepat untuk menemukan suatu data dibandingkan array karena linked list sudah memiliki alamat.
@@ -344,18 +340,17 @@ int main() {
 ![Screenshot Output Unguided 3_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output2_Unguided3.png)
 
 Unguided 3 menghasilkan output berupa bilangan yang diinputkan akan urut mengecil dikurangi dengan satu hingga berhenti pada angka 1, kemudian dilanjutkan string "* " sebagai cermin, lalu dilanjutkan bilangan urut membesar ditambah 1 dari angka 1 menuju angka input. Setiap baris berikutnya angka pertama dihapus beserta angka terakhir setelah cermin. Terakhir hanya string "*" yang tersisa.
-for (int b = angka; b >= 1; b--) adalah perulangan utama menurun,
-for (int s = 1; s <= angka-b; s++) membuat spasi bertambah setiap perulangan,
-for (int i = b; i >= 1; i--) membuat angka menurun setiap perulangan,
-cout << "* "; sebagai cermin diantara batas perulangan angka menurun dengan perulangan angka menaik,
-for (int j = 1; j <= b; j++) membuat angka menaik setiap perulangan,
-for (int s = 1; s <= angka; s++) berfungsi sebagai spasi terakhir setelah perulangan lainnya berakhir dan hanya tersisa satu buah cermin.
+<br/>for (int b = angka; b >= 1; b--) adalah perulangan utama menurun,
+<br/>for (int s = 1; s <= angka-b; s++) membuat spasi bertambah setiap perulangan,
+<br/>for (int i = b; i >= 1; i--) membuat angka menurun setiap perulangan,
+<br/>cout << "* "; sebagai cermin diantara batas perulangan angka menurun dengan perulangan angka menaik,
+<br/>for (int j = 1; j <= b; j++) membuat angka menaik setiap perulangan,
+<br/>for (int s = 1; s <= angka; s++) berfungsi sebagai spasi terakhir setelah perulangan lainnya berakhir dan hanya tersisa satu buah cermin.
 
 ## Kesimpulan
-Bahasa C++ tidak jauh berbeda dengan bahasa pemrograman Go. Tantangan yang ada untuk saat ini adalah menggunakan format yang berbeda, seperti penempatan titik koma yang harus berada di akhir barisan kode. 
+Bahasa C++ tidak jauh berbeda dengan bahasa pemrograman Go. Tantangan yang ada untuk saat ini adalah menggunakan format yang berbeda, seperti penempatan titik koma yang harus berada di akhir barisan kode. Bahasa pemrograman ini lebih mudah dipelajari karena berorientasi dengan bahasa manusia, namun bahasa ini lebih kompleks daripada bahasa pemrograman lainnya.
 
 ## Referensi
 [1] Dewi, L. J. E. (2010). Media Pembelajaran Bahasa Pemrograman C++. Jurnal Pendidikan Teknologi dan Kejuruan, 7(1).
 <br/> [2] Siregar, A. A. N. (2019, April 25). Pengertian Linked Object. https://doi.org/10.31219/osf.io/dmwr3.
 <br/> [3] Satrio, E., & Pakpahan, S. (2019). Pemrograman C++ Untuk Pembelajar Mandiri (Vol. 1). Penerbit Cahaya INFORMATIKA.
-
