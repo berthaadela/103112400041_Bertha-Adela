@@ -60,7 +60,7 @@ Lebih dari sama dengan: >=
 Sama dengan: ==
 Tidak sama dengan: !=
 
-### B. Linked List<br/>
+### C. Linked List<br/>
 Linked list adalah suatu sistem untuk menyimpan data yang saling terkait berisi dua buah elemen yaitu integer dan pointer [2]. Linked list biasanya terurut dan memungkinkan untuk diterapkan operasi aritmatika [2]. Linked list efektif untuk pencarian data, lebih cepat untuk menemukan suatu data dibandingkan array karena linked list sudah memiliki alamat.
 
 ## Guided 
