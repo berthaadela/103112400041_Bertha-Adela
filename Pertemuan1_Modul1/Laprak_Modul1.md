@@ -15,7 +15,7 @@ int, float, double, char, const, void, return [3].
 
 #### 3. Deklarasi Variabel
 Cara mendeklarasikan variabel yaitu harus menentukan tipe data dahulu sebelum nama variabel. Contoh:
-int angka;
+<br/>int angka;
 <br/>float bilangan;
 <br/>string huruf;
 
