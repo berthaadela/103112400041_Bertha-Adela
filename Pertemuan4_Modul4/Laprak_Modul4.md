@@ -14,8 +14,8 @@ Berikut adalah fungsi-fungsi yang digunakan di Modul 4 pada guided dan unguided 
 <br/>`alokasi`_________________ Membuat node baru___________________
 <br/>`dealokasi`______________ Menghapus node______________________
 <br/>`insertFirst`______________ Menambah node di awal_______________
-<br/>`insertLast`_______________ Menambah node di akhir______________
-<br/>`insertAfter`______________ Menambah node di tengah_____________
+<br/>`insertLast`______________ Menambah node di akhir______________
+<br/>`insertAfter`_____________ Menambah node di tengah_____________
 <br/>`delFirst`________________ Menghapus node pertama______________
 <br/>`delLast`________________ Menghapus node terakhir_____________
 <br/>`delAfter`_______________ Menghapus node setelah node tertentu
