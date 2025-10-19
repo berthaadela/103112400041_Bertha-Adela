@@ -459,7 +459,7 @@ Kemudian buat program utama didalam file "main.cpp" dengan implementasi sebagai
 berikut :
 ![Screenshot Soal Unguided 1_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan4_Modul4/soalunguided1-2.png)
 Sehingga linkedlist yang dibuat akan seperti ini :
-![Screenshot Soal Unguided 1_3](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan4_Modul4/soalunguided1-3.png)
+![Screenshot Soal Unguided 1_3](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan4_Modul4/soalunguided1-3.png)<br/>
 Output yang diharapkan :
 ![Screenshot Soal Unguided 1_4](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan4_Modul4/soalunguided1-4.png)
 
@@ -777,10 +777,7 @@ return 0;
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output1_Unguided2.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan1_Modul1/Output2_Unguided2.png)
+![Screenshot Output Unguided 2_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan4_Modul4/outputunguided2.png)
 
 Program di atas adalah single linked list menggunakan ADT (Abstract Data Type). Program ini adalah lanjutan dari soal pertama yang ditambahkan prosedur deleteFirst(), deleteLast(), deleteAfter(), nbList(), dan deleteList(). Penghapusan node 9 menggunakan deleteFirst(), node
 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Setelah itu program menampilkan
