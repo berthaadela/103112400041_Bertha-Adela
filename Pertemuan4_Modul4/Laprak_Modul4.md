@@ -6,6 +6,25 @@ Struktur data adalah cara untuk menyimpan, mengatur, dan mengelola data dan dapa
 - Array lebih efisien dalam pencarian data sedangkan Linked List lebih fleksibel dalam penambahan dan penghapusan data [2].
 - Waktu akses Linked List lebih lambat daripada Array [3].
 - Memori Linked List dialokasikan secara dinamis sedangkan memori array dialokasikan secara statis [3].
+<br/>
+Berikut adalah fungsi-fungsi yang digunakan di Modul 4 pada guided dan unguided untuk membuat single linked list.<br/>
+| Fungsi                    | Tujuan                               |
+| ------------------------- | ------------------------------------ |
+| `createList`              | Inisialisasi list kosong             |
+| `isEmpty`                 | Mengecek apakah list kosong          |
+| `alokasi`                 | Membuat node baru                    |
+| `dealokasi`               | Menghapus node                       |
+| `insertFirst`             | Menambah node di awal                |
+| `insertLast`              | Menambah node di akhir               |
+| `insertAfter`             | Menambah node di tengah              |
+| `delFirst`                | Menghapus node pertama               |
+| `delLast`                 | Menghapus node terakhir              |
+| `delAfter`                | Menghapus node setelah node tertentu |
+| `printList` / `printInfo` | Menampilkan seluruh isi list         |
+| `nbList`                  | Menghitung jumlah node               |
+| `deleteList`              | Menghapus seluruh node               |
+
+
 ## Guided 
 
 ### 1. Guided 1
