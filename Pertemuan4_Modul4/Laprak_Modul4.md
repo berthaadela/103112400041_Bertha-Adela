@@ -2,10 +2,10 @@
 <p align="center">Bertha Adela - 103112400041</p>
 
 ## Dasar Teori
-Struktur data adalah cara untuk menyimpan, mengatur, dan mengelola data dan dapat memengaruhi performa program dalam hal kecepatan, efisiensi memori, dan kemudahan implementasi [1].Pada struktur data, sering digunakan Array dan Linked List. Berikut adalah beberapa perbedaannya:<br/>
+Struktur data adalah cara untuk menyimpan, mengatur, dan mengelola data dan dapat memengaruhi performa program dalam hal kecepatan, efisiensi memori, dan kemudahan implementasi [1].Pada struktur data, sering digunakan Array dan Linked List[2]. Berikut adalah beberapa perbedaannya:<br/>
 - Array lebih efisien dalam pencarian data sedangkan Linked List lebih fleksibel dalam penambahan dan penghapusan data [2].
-- Waktu akses Linked List lebih lambat daripada Array.
-- Memori Linked List dialokasikan secara dinamis sedangkan memori array dialokasikan secara statis.
+- Waktu akses Linked List lebih lambat daripada Array [3].
+- Memori Linked List dialokasikan secara dinamis sedangkan memori array dialokasikan secara statis [3].
 ## Guided 
 
 ### 1. Guided 1
