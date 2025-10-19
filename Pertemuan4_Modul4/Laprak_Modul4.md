@@ -19,7 +19,7 @@ Berikut adalah fungsi-fungsi yang digunakan di Modul 4 pada guided dan unguided 
 <br/>`delFirst`________________ Menghapus node pertama______________
 <br/>`delLast`________________ Menghapus node terakhir_____________
 <br/>`delAfter`_______________ Menghapus node setelah node tertentu
-<br/>`printList` / `printInfo`_ Menampilkan seluruh isi list________
+<br/>`printList` / `printInfo`__ Menampilkan seluruh isi list________
 <br/>`nbList`_________________ Menghitung jumlah node______________
 <br/>`deleteList`_____________ Menghapus seluruh node______________
 
