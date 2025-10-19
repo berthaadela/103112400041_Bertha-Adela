@@ -8,21 +8,20 @@ Struktur data adalah cara untuk menyimpan, mengatur, dan mengelola data dan dapa
 - Memori Linked List dialokasikan secara dinamis sedangkan memori array dialokasikan secara statis [3].
 <br/>
 Berikut adalah fungsi-fungsi yang digunakan di Modul 4 pada guided dan unguided untuk membuat single linked list.<br/>
-<br/>| Fungsi                    | Tujuan                               |
-<br/>| ------------------------- | ------------------------------------ |
-<br/>| `createList`              | Inisialisasi list kosong             |
-<br/>| `isEmpty`                 | Mengecek apakah list kosong          |
-<br/>| `alokasi`                 | Membuat node baru                    |
-<br/>| `dealokasi`               | Menghapus node                       |
-<br/>| `insertFirst`             | Menambah node di awal                |
-<br/>| `insertLast`              | Menambah node di akhir               |
-<br/>| `insertAfter`             | Menambah node di tengah              |
-<br/>| `delFirst`                | Menghapus node pertama               |
-<br/>| `delLast`                 | Menghapus node terakhir              |
-<br/>| `delAfter`                | Menghapus node setelah node tertentu |
-<br/>| `printList` / `printInfo` | Menampilkan seluruh isi list         |
-<br/>| `nbList`                  | Menghitung jumlah node               |
-<br/>| `deleteList`              | Menghapus seluruh node               |
+<br/>Fungsi___________________ Tujuan______________________________
+<br/>`createList`_____________ Inisialisasi list kosong____________
+<br/>`isEmpty`________________ Mengecek apakah list kosong_________
+<br/>`alokasi`________________ Membuat node baru___________________
+<br/>`dealokasi`______________ Menghapus node______________________
+<br/>`insertFirst`____________ Menambah node di awal_______________
+<br/>`insertLast`_____________ Menambah node di akhir______________
+<br/>`insertAfter`____________ Menambah node di tengah_____________
+<br/>`delFirst`_______________ Menghapus node pertama______________
+<br/>`delLast`________________ Menghapus node terakhir_____________
+<br/>`delAfter`_______________ Menghapus node setelah node tertentu
+<br/>`printList` / `printInfo` Menampilkan seluruh isi list________
+<br/>`nbList`_________________ Menghitung jumlah node______________
+<br/>`deleteList`_____________ Menghapus seluruh node______________
 
 
 ## Guided 
