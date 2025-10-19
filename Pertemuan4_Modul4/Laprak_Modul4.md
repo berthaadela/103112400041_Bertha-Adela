@@ -9,14 +9,14 @@ Struktur data adalah cara untuk menyimpan, mengatur, dan mengelola data dan dapa
 <br/>
 Berikut adalah fungsi-fungsi yang digunakan di Modul 4 pada guided dan unguided untuk membuat single linked list.<br/>
 <br/>Fungsi___________________ Tujuan______________________________
-<br/>`createList`_____________ Inisialisasi list kosong____________
+<br/>`createList`______________ Inisialisasi list kosong____________
 <br/>`isEmpty`________________ Mengecek apakah list kosong_________
-<br/>`alokasi`________________ Membuat node baru___________________
+<br/>`alokasi`_________________ Membuat node baru___________________
 <br/>`dealokasi`______________ Menghapus node______________________
-<br/>`insertFirst`____________ Menambah node di awal_______________
-<br/>`insertLast`_____________ Menambah node di akhir______________
-<br/>`insertAfter`____________ Menambah node di tengah_____________
-<br/>`delFirst`_______________ Menghapus node pertama______________
+<br/>`insertFirst`______________ Menambah node di awal_______________
+<br/>`insertLast`_______________ Menambah node di akhir______________
+<br/>`insertAfter`______________ Menambah node di tengah_____________
+<br/>`delFirst`________________ Menghapus node pertama______________
 <br/>`delLast`________________ Menghapus node terakhir_____________
 <br/>`delAfter`_______________ Menghapus node setelah node tertentu
 <br/>`printList` / `printInfo` Menampilkan seluruh isi list________
