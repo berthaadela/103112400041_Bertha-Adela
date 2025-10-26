@@ -741,7 +741,7 @@ Program tersebut menampilkan linked list, mencari data di dalam linked list, men
 
 
 ## Kesimpulan
-Running time pada metode pencarian Binary Search lebih cepat dibandingkan Linear Search. Hal ini dikarenakan Linear Search akan mengecek satu per satu dari awal hingga akhir suatu array atau list. Sementara itu, Binary Search akan menyeleksi pencarian yang lebih efisien dengan elemen yang dicari dengan elemen yang berada di tengah suatu array atau list.
+Running time pada metode pencarian Binary Search lebih cepat dibandingkan Linear Search. Hal ini dikarenakan Linear Search akan mengecek satu per satu dari awal hingga akhir suatu array atau list. Sementara itu, Binary Search akan menyeleksi pencarian yang lebih efisien dengan cara membandingkan elemen yang dicari dengan elemen yang berada di tengah suatu array atau list.
 
 ## Referensi
 [1] Kurhade, A., & Takawale, N. N. (2024). Comparative study of searching algorithm: Linear search and binary search. International Journal of Advanced Research in Computer and Communication Engineering, 13(5). https://doi.org/10.17148/IJARCCE.2024.13506 <br/>
