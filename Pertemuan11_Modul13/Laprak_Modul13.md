@@ -638,6 +638,7 @@ Program ini akan membuat struktur multi linked list dengan id parent G001, G002,
 
 ### 2. Tambahkan prosedur searchHewanByEkor(input/output LParent : listParent, input tail : Boolean) yang digunakan untuk melakukan operasi SEARCHING hewan-hewan yang memiliki EKOR FALSE (pencarian dilakukan dengan menelusuri list child yang ada pada masing-masing node parent). Kemudian panggil prosedur tersebut pada main.cpp.
 <br/>Ekspektasi output :
+<br/>
 ![Screenshot Soal Unguided 2_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED2_1.png)
 
 #### MultiLL.h
