@@ -337,15 +337,16 @@ Program ini mensimulasikan sistem kategori dan menu menggunakan Multi Linked Lis
 ### 1. Buatlah ADT Multi Linked List sebagai berikut didalam file "MultiLL.h" :
 ![Screenshot Soal Unguided 1_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED1_1.png)
 ![Screenshot Soal Unguided 1_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED1_2.png)
-Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file "MultiLL.cpp"
-Kemudian pada file "main.cpp" lakukan operasi INSERT sebagaimana sehingga bentuk
+<br/>Kemudian buatlah implementasi ADT Multi Linked List tersebut pada file "MultiLL.cpp"
+<br/>Kemudian pada file "main.cpp" lakukan operasi INSERT sebagaimana sehingga bentuk
 dari multi linked listnya seperti ini :
 ![Screenshot Soal Unguided 1_3](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED1_3.png)
 ![Screenshot Soal Unguided 1_4](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED1_4.png)
-Setelah melakukan INSERT, lakukan operasi PRINT dengan memanggil prosedur
+<br/>Setelah melakukan INSERT, lakukan operasi PRINT dengan memanggil prosedur
 printMLLStructure().
-(Lampirkan screenshot output hasil print pada laporan)
-Ekspektasi output :
+<br/>(Lampirkan screenshot output hasil print pada laporan)
+<br/>Ekspektasi output :
+<br/>
 ![Screenshot Soal Unguided 1_5](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED1_5.png)
 
 #### MultiLL.h
@@ -631,11 +632,12 @@ int main() {
 ![Screenshot Output Unguided 1_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/Output1.png)
 
 Program ini akan membuat struktur multi linked list dengan id parent G001, G002, G003, G004, dan G005.
-Parent G001 dialokasikan child AV001 dan AV002.
-Parent G002 dialokasikan child M001, M002, dan M003.
-Parent G004 dialokasikan child AM001.
+<br/>Parent G001 dialokasikan child AV001 dan AV002.
+<br/>Parent G002 dialokasikan child M001, M002, dan M003.
+<br/>Parent G004 dialokasikan child AM001.
 
-### 2. Tambahkan prosedur searchHewanByEkor(input/output LParent : listParent, input tail : Boolean) yang digunakan untuk melakukan operasi SEARCHING hewan-hewan yang memiliki EKOR FALSE (pencarian dilakukan dengan menelusuri list child yang ada pada masing-masing node parent). Kemudian panggil prosedur tersebut pada main.cpp. <br/>Ekspektasi output :
+### 2. Tambahkan prosedur searchHewanByEkor(input/output LParent : listParent, input tail : Boolean) yang digunakan untuk melakukan operasi SEARCHING hewan-hewan yang memiliki EKOR FALSE (pencarian dilakukan dengan menelusuri list child yang ada pada masing-masing node parent). Kemudian panggil prosedur tersebut pada main.cpp.
+<br/>Ekspektasi output :
 ![Screenshot Soal Unguided 2_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED2_1.png)
 
 #### MultiLL.h
@@ -967,8 +969,9 @@ Program ini akan mencari hewan yang tidak memiliki ekor serta menampilkan inform
 
 ### 3. Lakukan operasi DELETE dengan menghapus node G004 yang ada pada list parent (list child dari node tersebut juga terhapus), kemudian lakukan lagi operasi PRINT dengan memanggil prosedur printMLLStructure(). Sehingga bentuk dari multi linked listnya berubah menjadi seperi ini :
 ![Screenshot Soal Unguided 3_1](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED3_1.png)
-(Lampirkan screenshot output hasil print setelah dilakukan delete pada laporan).
-Ekspektasi output :
+<br/>(Lampirkan screenshot output hasil print setelah dilakukan delete pada laporan).
+<br/>Ekspektasi output :
+<br/>
 ![Screenshot Soal Unguided 3_2](https://github.com/berthaadela/103112400041_Bertha-Adela/blob/main/Pertemuan11_Modul13/SOALUNGUIDED3_2.png)
 
 #### MultiLL.h
